@@ -18,6 +18,8 @@ $('#mobile-menu').meanmenu({
 $('.top-width').slick({
 	dots: false,
 	infinite: true,
+	autoplay: true,
+		autoplaySpeed: 1000,
 	speed: 300,
 	slidesToShow: 1,
 	prevArrow: $('.prev'),
